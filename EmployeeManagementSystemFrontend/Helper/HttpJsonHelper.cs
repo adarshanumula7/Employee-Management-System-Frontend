@@ -13,7 +13,7 @@ namespace EmployeeManagementSystemFrontend.Helper
     public static class HttpJsonHelper
     {
         private static readonly HttpClient _client = new HttpClient();
-        public static string BaseUrl { get; set; } = "https://localhost:44353/api/Employee/";
+        public static string BaseUrl { get; set; } = "https://localhost:<port_number>/api/Employee/";
         public static string Token { get; private set; }
 
 
